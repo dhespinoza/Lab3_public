@@ -25,7 +25,7 @@ int main()
     cin >> num2;
 
     // Calculate the average
-    average = num1 + num2 / size;
+    average = (num1 + num2) / size;
 
     // Display the average
     cout << "The average of the two numbers is: " << average << endl;
